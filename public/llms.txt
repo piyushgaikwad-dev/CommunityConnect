@@ -1,0 +1,25 @@
+# CommunityConnect
+
+> Hyperlocal Community Issue Mapping & Resolution Portal
+
+CommunityConnect is a civic engagement web application that empowers residents to report, track, and monitor real-world neighborhood and locality issues (such as waste management, potholed roads, broken street lighting, water leakage, and drainage blockages). Administrators review reports, coordinate field resolutions, and upload photographic resolution evidence.
+
+## Core Features
+- Resident Issue Reporting: Geospatial coordinates, category selection, severity indicator, and photo evidence upload.
+- Community Issue Map: Interactive OpenStreetMap/Leaflet integration visualizing issues by status and severity.
+- Resolution Proof & Before/After Comparison: Transparent visual accountability with verified admin resolution imagery.
+- Dynamic Impact Metrics: Real-time calculation of total issues, resolution rate %, pending queue, and average resolution turnaround.
+- Community Priority Index (CPI): A transparent rule-based algorithm (Severity Base + Hazard Boost + Age Penalty) ensuring urgent civic issues are prioritized.
+
+## Technology Stack
+- Frontend: React 19, Vite, Leaflet, OpenStreetMap, Lucide Icons, Modular CSS.
+- Backend: Supabase (PostgreSQL Database, Authentication, Row-Level Security, Storage).
+- Free-tier compliant: Optimized queries, zero paid extensions.
+
+## Public Endpoints
+- `/` - Homepage with live statistics, category browser, and recently resolved showcases.
+- `/issues` - Public community issue directory with search, category filtering, and status filters.
+- `/issues/:id` - Detailed issue page with timeline, map coordinates, and before/after verification.
+- `/map` - Geospatial issue map visualization.
+- `/report` - Issue submission portal for authenticated community residents.
+- `/login` & `/register` - Community resident and admin authentication.

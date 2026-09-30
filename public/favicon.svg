@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2563eb" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background rounded shield -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#grad)" filter="url(#glow)"/>
+  <!-- Inner civic pin & connection node -->
+  <path d="M24 10C18.477 10 14 14.477 14 20C14 26.5 24 38 24 38C24 38 34 26.5 34 20C34 14.477 29.523 10 24 10Z" fill="#ffffff" fill-opacity="0.95"/>
+  <circle cx="24" cy="20" r="4.5" fill="#2563eb" />
+  <!-- Connecting sparkles / resonance nodes -->
+  <circle cx="10" cy="24" r="2" fill="#ffffff" fill-opacity="0.7"/>
+  <circle cx="38" cy="24" r="2" fill="#ffffff" fill-opacity="0.7"/>
+  <circle cx="24" cy="42" r="2" fill="#ffffff" fill-opacity="0.7"/>
+</svg>

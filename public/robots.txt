@@ -1,0 +1,18 @@
+# CommunityConnect Robots.txt
+# Hyperlocal Community Issue Mapping & Resolution Portal
+
+User-agent: *
+Allow: /
+Allow: /issues
+Allow: /issues/*
+Allow: /map
+Allow: /login
+Allow: /register
+
+# Disallow private user and admin dashboards from indexing
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /my-reports
+Disallow: /profile
+
+Sitemap: https://communityconnect.app/sitemap.xml

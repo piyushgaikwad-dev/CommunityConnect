@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Primary Meta Tags -->
+    <title>CommunityConnect | Hyperlocal Community Issue Mapping & Resolution Portal</title>
+    <meta name="title" content="CommunityConnect | Hyperlocal Community Issue Mapping & Resolution Portal" />
+    <meta name="description" content="Report local neighborhood issues, track municipal resolution in real-time, view verified before-and-after photo evidence, and measure civic community impact." />
+    <meta name="keywords" content="community issues, civic portal, pothole reporting, street lighting repair, waste management, municipal tracking, community priority index, hyperlocal resolution" />
+    <meta name="author" content="CommunityConnect Civic Project" />
+    <link rel="canonical" href="https://communityconnect.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://communityconnect.app/" />
+    <meta property="og:title" content="CommunityConnect | Hyperlocal Civic Resolution Portal" />
+    <meta property="og:description" content="Report neighborhood issues, track resolution progress with photo verification, and measure community impact." />
+    <meta property="og:image" content="https://communityconnect.app/og-image.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://communityconnect.app/" />
+    <meta property="twitter:title" content="CommunityConnect | Hyperlocal Civic Resolution Portal" />
+    <meta property="twitter:description" content="Report neighborhood issues, track resolution progress with photo verification, and measure community impact." />
+    <meta property="twitter:image" content="https://communityconnect.app/og-image.svg" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://communityconnect.app/#organization",
+          "name": "CommunityConnect",
+          "url": "https://communityconnect.app/",
+          "logo": "https://communityconnect.app/favicon.svg",
+          "description": "Hyperlocal Community Issue Mapping & Resolution Portal empowering residents to report and track municipal civic resolutions with photo verification."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://communityconnect.app/#website",
+          "url": "https://communityconnect.app/",
+          "name": "CommunityConnect",
+          "publisher": {
+            "@id": "https://communityconnect.app/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://communityconnect.app/issues?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

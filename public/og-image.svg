@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f2b38" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg)" />
+  
+  <!-- Subtle decorative grid -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+  </g>
+
+  <!-- Logo Mark -->
+  <rect x="120" y="120" width="80" height="80" rx="20" fill="url(#accent)" />
+  <path d="M160 138C149 138 140 147 140 158C140 171 160 190 160 190C160 190 180 171 180 158C180 147 171 138 160 138Z" fill="#ffffff"/>
+  <circle cx="160" cy="158" r="8" fill="#1e293b" />
+  
+  <!-- Brand Name -->
+  <text x="225" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">Community<tspan fill="#38bdf8">Connect</tspan></text>
+
+  <!-- Tagline & Heading -->
+  <text x="120" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="700" fill="#f8fafc" letter-spacing="-0.01em">Hyperlocal Community Issue</text>
+  <text x="120" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="700" fill="url(#accent)" letter-spacing="-0.01em">Mapping &amp; Resolution Portal</text>
+  
+  <text x="120" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="400" fill="#94a3b8">Report local civic issues, track progress with photo verification, and witness measurable community impact.</text>
+
+  <!-- Stat Badges in Preview -->
+  <g transform="translate(120, 480)">
+    <rect width="280" height="60" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#38bdf8">📍 Live Map &amp; Geocoding</text>
+  </g>
+  <g transform="translate(420, 480)">
+    <rect width="280" height="60" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#34d399">📷 Before/After Proof</text>
+  </g>
+  <g transform="translate(720, 480)">
+    <rect width="280" height="60" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#fbbf24">⚡ Priority Index (CPI)</text>
+  </g>
+</svg>
